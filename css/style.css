@@ -1,0 +1,146 @@
+/* font-family: 'Playfair Display', serif; */
+/* font-family: 'Ubuntu', sans-serif; */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background: #343a40;
+}
+.header_content{
+    width: 55%;
+    margin: auto;
+}
+.header_content ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.header_content ul li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+.header_content ul li a img{
+
+    width: 150px;
+}
+article{
+    height: 569px;
+    background-image: url(../images/bg4.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form_content{
+    width: 60%;
+    display: flex;
+}
+.relax{
+    width: 56%;
+    font-family: 'Ubuntu', sans-serif;
+}
+.relax h1{
+    color: #fff;
+    font-size: 31px;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+.relax h1 span{
+
+    color: #0bdd1b;
+}
+.relax p{
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.relax ul{
+    list-style: none;
+}
+.relax ul li{
+    color: #fff;
+    margin: 10x 0;
+    padding-right: -1px;
+}
+.relax ul li i{       
+    color: #fff;        
+    border: 2px solid #fff;       
+    border-radius: 50%;      
+    font-size: 10px;      
+    margin: 5px 0;     
+    margin-right: 5px;
+}
+.register{
+    width: 40%;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Playfair Display', serif;
+}
+.register_form{
+    background: #275D2B;
+    min-height: 80%;
+    width: 80%;
+    padding: 40px 20px;
+    border-radius: 4px;
+}
+form{
+    width: 99%;
+}
+.register_form h1{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.register_form p{
+    color: #fff;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.register_form form input{      
+    padding-left: 5px;      
+    width: 96%;      
+    margin-top: 5px;      
+    padding: 7px 5px;
+}
+.register_form form input[type="submit"]{
+    border: navajowhite;
+    width: 101%;
+    box-shadow: 1px 1px 1px solid #000;
+    box-shadow: 1px 2px 5px 1px #000;
+    font-size: 16px;
+    background: #529252;
+    font-weight: 700;
+    color: #fff;
+    cursor: pointer;
+}
+.register_form form input[type="submit"]:hover{
+    color: #000;
+   
+}
+button{
+            
+    background: transparent;          
+    border: none;          
+    color: #fff;          
+    background: #275D2B;           
+    border-radius: 30px;           
+    padding: 12px 25px;           
+    font-size: 18px;           
+    text-transform: capitalize;           
+    margin-top: 10px;           
+    font-weight: 700;          
+    cursor: pointer;
+}
+button:hover{
+    color: #000;
+    font-size:20px ;
+}
